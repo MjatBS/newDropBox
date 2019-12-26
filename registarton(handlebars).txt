@@ -1,0 +1,30 @@
+{{#each registration}}
+	<table width="500px" border="1px"> 
+	  <tr>
+	  	<td>
+			<h1>Регистрация на странице</h1>
+		</td>
+	  </tr>
+	  <tr>
+	    <td>
+			<form>
+			    <fieldset border="1px">
+			    	<p>
+		                <input type="text" name="text" alt="text" placeholder="Введите @email">
+		            </p>
+		            <p>
+		                <input type="text" name="text" alt="text" placeholder="Введите Логин">
+		            </p>
+		            <p>
+		            	<input type="text" name="text" alt="text" placeholder="Введите Пароль">
+		            </p>
+			    </fieldset>
+			    <p style="margin-left:10px;">
+		            <button type="submit" name="зарегестрироваться">Зарегестрироваться</button>
+		            <button type="reset" name="cancel">Войти</button>
+		        </p>
+			</form>
+		</td>
+	  </tr>
+	 </table>
+{{/each}}
