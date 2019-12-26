@@ -1,0 +1,8 @@
+router.get('/registration', (req, res) => {
+      res.render('registration', 
+        { "registration": [
+        { "post": "post:", "login": "login:", "password": "password:"}
+          ]
+        }
+      );
+});
